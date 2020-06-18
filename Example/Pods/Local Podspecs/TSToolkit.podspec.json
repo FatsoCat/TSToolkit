@@ -1,0 +1,28 @@
+{
+  "name": "TSToolkit",
+  "version": "0.1.0",
+  "summary": "TSToolkit",
+  "description": "iOS Toolkit",
+  "homepage": "https://github.com/FatsoCat/TSToolkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gongm": "445878662@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/FatsoCat/TSToolkit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSToolkit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "TSUIKit",
+      "source_files": "TSToolkit/Classes/TSUIKit/**/*"
+    }
+  ]
+}
